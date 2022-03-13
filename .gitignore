@@ -1,0 +1,12 @@
+/.DS_Store
+/.idea
+/.ipynb_checkpoints
+/.vscode
+/__pycache__
+/action.ipynb
+/classification.ipynb
+/data
+/defense_model
+/defense_models.py
+/math_exp.ipynb
+/trained_models
