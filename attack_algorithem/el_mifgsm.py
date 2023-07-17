@@ -3,7 +3,7 @@ import torch.nn as nn
 import torch.nn.functional as F
 import torchvision.transforms as transforms
 
-class TEST6_MIFGSM:
+class EL_MIFGSM:
     def __init__(self,esp,steps,u,m=5,device=torch.device("cuda:0" if torch.cuda.is_available() else "cpu")) -> None:
         self.esp=esp
         self.u=u

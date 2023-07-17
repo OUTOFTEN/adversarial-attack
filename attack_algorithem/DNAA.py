@@ -6,7 +6,7 @@ from ReTransform import Re_transforms
 import numpy as np
 import copy
 
-class DNAA:
+class ENAA:
     def __init__(self, esp,steps,u,a=6.4/255,ens=30,drop_pb=0.8,device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")):
         self.esp=esp
         self.device=device
